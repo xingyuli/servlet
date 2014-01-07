@@ -1,0 +1,7 @@
+/.settings
+/target
+/work
+/.project
+/.classpath
+/.tomcatplugin
+/src/main/webapp/.#webclasspath
