@@ -9,9 +9,7 @@
     
     if (null != errMsg) {
     	request.setAttribute("errMsg", errMsg);
-    	%>
-    	<jsp:forward page="exercise_err.jsp" />
-    	<%
+    	pageContext.forward("exercise_err.jsp");
     }
 %>
 <html>
