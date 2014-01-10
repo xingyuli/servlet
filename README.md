@@ -10,7 +10,7 @@ JSP folders
 
 Different jsp folders contain pages for different site.
 
-### 1. webapp/jsp/tut
+### 1. webapp/tut
 
 Contains pages for [JSP Tutorial](http://www.jsptut.com/).
 + **./3/** [Adding dynamic content via expressions](http://www.jsptut.com/Dynexpr.jsp)
@@ -25,7 +25,7 @@ Contains pages for [JSP Tutorial](http://www.jsptut.com/).
 + **./13/** [Form Editing](http://www.jsptut.com/Editing.jsp)
 + **./14/** [Log-in pages](http://www.jsptut.com/Loginforms.jsp)
 
-### 2. webapp/jsp/tutpoint
+### 2. webapp/tutpoint
 
-Contains pages for [JSP Tutorial](http://www.tutorialspoint.com/jsp/index.htm). Currently I haven't start the practices for this site, would be covered in the near future.
+Contains pages for [JSP Tutorial](http://www.tutorialspoint.com/jsp/index.htm).
 
