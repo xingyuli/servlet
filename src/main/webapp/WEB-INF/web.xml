@@ -11,6 +11,20 @@
     </description>
     <display-name>Servlet and JSP Examples</display-name>
     
+    <!-- apply to all the servlets and JSPs -->
+    <filter>
+        <filter-name>LogFilter</filter-name>
+        <filter-class>org.swordess.servlet.filter.LogFilter</filter-class>
+        <init-param>
+            <param-name>test_param</param-name>
+            <param-value>Initialization Parameter</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>LogFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    
     <security-role>
         <role-name>tomcat</role-name>
     </security-role>
