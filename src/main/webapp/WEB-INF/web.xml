@@ -11,6 +11,12 @@
     </description>
     <display-name>Servlet and JSP Examples</display-name>
     
+    <context-param>
+        <description>Location to store uploaded file</description>
+        <param-name>file-upload</param-name>
+        <param-value>/data/</param-value>
+    </context-param>
+    
     <!-- apply to all the servlets and JSPs -->
     <filter>
         <filter-name>LogFilter</filter-name>
@@ -48,4 +54,8 @@
         </form-login-config>
     </login-config>
 
+    <session-config>
+        <session-timeout>15</session-timeout>
+    </session-config>
+    
 </web-app>
