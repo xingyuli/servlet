@@ -1,4 +1,4 @@
-package org.swordess.servlet.bean;
+package org.swordess.toy.servlet.bean;
 
 public class TestBean {
 

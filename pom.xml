@@ -3,12 +3,10 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.swordess.servlet</groupId>
-    <artifactId>swordess-servlet</artifactId>
+    <groupId>org.swordess.toy</groupId>
+    <artifactId>swordess-toy-servlet</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
-
-    <name>swordess-servlet</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -38,7 +36,6 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
                 <configuration>
@@ -47,7 +44,6 @@
                 </configuration>
             </plugin>
         </plugins>
-        <finalName>${project.artifactId}</finalName>
     </build>
     
 </project>

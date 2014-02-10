@@ -1,4 +1,4 @@
-package org.swordess.servlet.filter;
+package org.swordess.toy.servlet.filter;
 
 import java.io.IOException;
 import java.util.Date;

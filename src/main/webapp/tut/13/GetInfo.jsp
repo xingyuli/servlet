@@ -1,4 +1,4 @@
-<jsp:useBean id="user" class="org.swordess.servlet.bean.UserData" scope="session" />
+<jsp:useBean id="user" class="org.swordess.toy.servlet.bean.UserData" scope="session" />
 <html>
 <body>
 <form method="post" action="SaveInfo.jsp">

@@ -3,7 +3,7 @@
 <body>
 <h2>Using JavaBeans in JSP</h2>
 
-<jsp:useBean id="test" class="org.swordess.servlet.bean.TestBean" />
+<jsp:useBean id="test" class="org.swordess.toy.servlet.bean.TestBean" />
 <jsp:setProperty name="test" property="message" value="Hello JSP..." />
 
 <p>Got message...</p>
