@@ -1,5 +1,5 @@
-servlet
-=======
+swordess-toy-servlet
+====================
 
 Learn more about Java servlet and jsp.
 
